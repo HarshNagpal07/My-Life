@@ -10,7 +10,9 @@ function App() {
   },[]);
   return (
     <div className="App">
-      
+      {
+        data ? data.map(e=> <li>{e.title}</li>):<p>No Data</p>
+      }
     </div>
   );
 }
