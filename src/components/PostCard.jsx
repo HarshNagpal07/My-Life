@@ -1,10 +1,10 @@
 import React from "react";
 
- const PostCard =()=>{
+ const PostCard =(props)=>{
     return(
         <div className="post-card">
-            <h3>Title</h3>
-            <p>Body</p>
+            <h3>{props.title}</h3>
+            <p>{props.body}</p>
         </div>
     );
  };

@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.post-card{
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(174, 91, 18, 0.22);
+  align-items: center;
+}
